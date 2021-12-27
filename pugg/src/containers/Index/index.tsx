@@ -1,13 +1,12 @@
 // Customer.tsx
 import React from "react";
-import { Link } from "react-router-dom";
+
 
 export default function Customer() {
     return (
-        <div>
-            <h2>Customer Page</h2>
+        <div >
+            111
 
-            <Link to="/goods"> to Goods</Link>
         </div>
     );
 }
