@@ -11,7 +11,7 @@ export default function Router() {
             {/* 使用 Routes 替换曾经的 Switch */}
             <Routes>
                 <Route path='/' element={<Index />} />
-                <Route path='/home' element={<Home />} />
+                <Route path='home' element={<Home />} />
             </Routes>
         </BrowserRouter>
     );
