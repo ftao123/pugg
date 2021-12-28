@@ -1,35 +1,30 @@
 
 import React from "react";
 import "./style.scss";
-import item from "../../images/svg/item.svg";
+import Cn from 'classnames'
 
 
 
-export default function Item({ url, des }: any) {
+
+export default function Item({ url, title, name, index }: any) {
     return (
-        <div className="row">
-            <h1 style={{ color: 'pink' }}>111 {des}</h1>
-            <div id="des">
-                <span >
-                    {des}
-                </span>
+        <div className={Cn('row', { 'center-row': (index + 2) % 3 === 0, })}>
+            <div className="title">
+                <h3>
+                    <span >{title}</span>
+                </h3>
             </div>
-
-            <img src={item} alt="title" />
-            <div>
+            <div className="image">
                 <img src={url} alt="img" />
             </div>
-
-            <h1 style={{ color: 'pink' }}>111 {des}</h1>
-            <div id="des">
-                <span >
-                    {des}
-                </span>
+            <div className="name">
+                <h3 >
+                    <span >{name}</span>
+                </h3>
             </div>
-
-
-
-
+            <div className="button">
+                <button>BUY</button>
+            </div>
         </div>
     );
 }

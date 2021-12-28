@@ -1,28 +1,77 @@
 main{
     display: -webkit-box;
     padding: 0% 10%;
-     overflow:scroll;
+    min-width: 980px;
+    position: relative;
     .grid{
-        --brw: 0px;
-        --brd: 50,65,88;
-        --bg: 61,155,233;
-        --rd: 0px;
-        --shd: none;
-        --alpha-brd: 0;
-        --alpha-bg: 0;
-        --boxShadowToggleOn-shd: none;
-        --direction: ltr;
-        --justify-content: center;
-        --margin: -6px -6px;
-        --item-margin: 6px 6px;
         display: flex;
         flex-wrap: wrap;
-        direction: var(--direction);
-        justify-content: var(--justify-content);
-        margin: var(--margin);
+        direction: ltr;
+        justify-content: center;
+        .center-row{
+            margin: 0px 12px;
+        }
         .row{
+            border-radius: 15px;
             display: flex;
             flex-direction: column;
+            .title{
+                margin: 36px 0px 16px 0;
+                h3{
+                    font-size:18px;
+                    line-height:1.2em;
+                    text-align:center;
+                    span{
+                        color:#B49B57;
+                        font-size: 18px;
+                        letter-spacing:0.1em;
+                    }
+                }
+            }
+            .image{
+                img{
+                    width: 311px;
+                    height:383px;
+                    object-fit: cover;
+                    object-position: 50% 50%;
+                }
+            }
+            .name{
+                margin: 55px 0px 29px 0px;
+                h3{
+                    font-size:20px; 
+                    text-align:center;
+                    span{
+                        letter-spacing:0.05em;
+                        font-size: 20px;
+                        color:#fff;
+                    }
+                }
+            }
+            .button{
+                display: flex;
+                justify-content: center;
+                button{
+                    border-radius: 100px;
+                    background-color: #903f8e;
+                    width: 150px;
+                    height: 38px;
+                    line-height: 38px;
+                    border: 1px solid transparent;
+                    padding: 0 18px;
+                    color: #fff;
+                    white-space: nowrap;
+                    text-align: center;
+                    font-size: 14px;
+                    cursor: pointer;
+                }
+                span{
+                        letter-spacing:0.05em;
+                        font-size: 20px;
+                        color:#fff;
+                }
+
+            }
         }
     }
 }
