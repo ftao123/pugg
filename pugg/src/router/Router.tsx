@@ -9,7 +9,7 @@ import Home from "../containers/Home";
 export default function Router() {
     {/* 所有的路由配置均在 BrowserRouter 内部 */ }
     return (
-        <div >
+        <div style={{ overflow: 'scroll' }}>
             <Header />
             <BrowserRouter>
                 {/* 使用 Routes 替换曾经的 Switch */}

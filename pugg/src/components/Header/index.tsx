@@ -1,11 +1,11 @@
 // Customer.tsx
 import React from "react";
 import "./style.scss";
-import logo from '../images/logo.png'
-import medium from '../images/svg/m.svg'
-import tme from '../images/svg/t.svg'
-import twitter from '../images/svg/tw.svg'
-import github from '../images/svg/g.svg'
+import logo from '../../images/logo.png'
+import medium from '../../images/svg/m.svg'
+import tme from '../../images/svg/t.svg'
+import twitter from '../../images/svg/tw.svg'
+import github from '../../images/svg/g.svg'
 
 export default function Header() {
     return (
