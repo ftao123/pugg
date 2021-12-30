@@ -1,15 +1,168 @@
 main{
-    display: -webkit-box;
-    padding: 0% 10%;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     min-width: 980px;
     position: relative;
+    .header{
+        z-index: 0;
+        .caption{
+            display: flex;
+            background: 
+            url( 'http://demo.wpeventpartners.com/tedx-talk-pro/wp-content/uploads/sites/6/2020/07/cropped-alexander-popov-xfQZM-SBhkE-unsplash.jpg' )
+            center/cover
+            no-repeat
+            fixed;
+            z-index: 0;
+            color: #fff;
+            text-align: left;
+            flex-direction: column;
+            padding: 20px 0px 90px 11%;
+            font: normal 16px Rosarivo;
+            line-height: 1.5;
+            // &:before {
+            //     background: #232e51;
+            //     opacity: 0.8;
+            //     content: "";
+            //     position: absolute;
+            //     top: 0;
+            //     left: 0;
+            //     right: 0;
+            //     bottom: 0;
+            //     z-index: -1;
+            //     box-sizing: inherit;
+            // }
+            p {
+                color: #fff;
+                margin: 20px 0;
+            }
+            #clockdiv {
+                color: #fff;
+                display: inline-block;
+                text-align: center;
+                margin: 0 0 10px;
+                font-size: 40px;
+            }
+            .title {
+                font-size: 40px;
+                font-family: Abel;
+            }
+            .date-location{
+                display: flex;
+                text-align: left;
+                align-items: center;
+                flex-wrap: wrap;
+                margin: 10px 0 ;
+                max-width: 1140px;
+                div {
+                    margin: 0 30px 0 0;
+                    i {
+                        font-style: italic;
+                    }
+                }
+            }
+            .group-btn{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: flex-start;
+                align-items: center;
+                .btn {
+                    margin: 0 15px 0 0;
+                    padding: 9px 29px;
+                    transition: all 0.3s ease;
+                    border-radius: 0;
+                    display: inline-block;
+                    font-weight: 400;
+                    text-align: center;
+                    vertical-align: middle;
+                    cursor: pointer;
+                    user-select: none;
+                    border: 1px solid transparent;
+                    font-size: 1rem;
+                    line-height: 1.5;
+                    color: #444752;
+                }
+                .btn-secondary {
+                    background-color: #f4134f;
+                    border-color: #f4134f;
+                }
+                .btn-outline-white {
+                    background: transparent;
+                    border-color: #fff;
+                }
+            }
+        }
+    }
+    .sponsor{
+        width: 100%;
+        padding: 20px 0%;
+        display: flex;
+        flex-direction: column;
+        .item{
+            padding: 0px 10%;
+            .line{
+                height: 1px;
+                background-color: #6c757d;
+                margin: 30px 0px;
+            }
+             .row {
+                display: flex;
+                flex-direction: row;
+                // flex-wrap: wrap;
+                .left{
+                    width: 25%;
+                    .sponsor-subtitle{
+                        display: inline-block;
+                        padding-right: 15px;
+                        padding-left: 15px;
+                        color:#fff;
+                        font-size: 22px;
+                        font-weight: 500;
+                        margin: 10px 0 0;
+                        display: block;
+                        border-right: 1px solid #aaa;
+                        line-height: 1.5;
+                    }
+                    @media screen and(min-width: 576px){
+                        & {
+                            flex: 0 0 25%;
+                            max-width: 25%;
+                        }
+                    }
+                }
+                .right{
+                    display: flex;
+                    flex:1;
+                    padding-right: 15px;
+                    padding-left: 15px;
+                    .img-holder{
+                        max-width: 150px;
+                        margin: 0 auto;
+                        img {
+                            transition: all 0.3s ease;
+                            height: auto;
+                            max-width: 100%;
+                        }
+                    }
+                    @media screen and(min-width: 576px){
+                        & {
+                            flex: 0 0 75%;
+                            max-width: 75%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
     .grid{
         display: flex;
+        padding: 0% 10%;
         flex-wrap: wrap;
         direction: ltr;
         justify-content: center;
+        padding: 0% 10%;
         .center-row{
             margin: 0px 12px;
         }

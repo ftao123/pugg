@@ -20,76 +20,101 @@ const data = [
         name: 'NANE AVETISYAN'
     },
     {
-        url: 'https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg.jj20.com%2Fup%2Fallimg%2Ftp09%2F210611094Q512b-0-lp.jpg&refer=http%3A%2F%2Fimg.jj20.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1643251777&t=20bd84c9977daa2f8af935ced6cc6730',
+        url: 'https://static.wixstatic.com/media/47cf01_2698e8b88ac84b95ad104f1b5888c23c~mv2.png/v1/fill/w_576,h_709,al_c,lg_1,q_90/shutterstock_1898354080.webp',
         title: 'ARUBA',
         name: 'THESSALY ZIMMERMAN'
     },
     {
-        url: 'https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg.jj20.com%2Fup%2Fallimg%2Ftp09%2F210611094Q512b-0-lp.jpg&refer=http%3A%2F%2Fimg.jj20.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1643251777&t=20bd84c9977daa2f8af935ced6cc6730',
-        title: 'ARUBA',
-        name: 'THESSALY ZIMMERMAN'
+        url: 'https://static.wixstatic.com/media/47cf01_311550ad2e8e47629fbce5d4a686c132~mv2.png/v1/fill/w_576,h_709,al_c,lg_1,q_90/shutterstock_1898354080.webp',
+        title: 'ARGENTINA',
+        name: 'JULIETA GARCIA'
+    },
+    {
+        url: 'https://static.wixstatic.com/media/47cf01_aa1b506eb94e4ddb8db3306ad06f1342~mv2.png/v1/fill/w_576,h_709,al_c,lg_1,q_90/shutterstock_1898354080.webp',
+        title: 'ARMENIA',
+        name: 'NANE AVETISYAN'
     },
     {
         url: 'https://static.wixstatic.com/media/47cf01_2698e8b88ac84b95ad104f1b5888c23c~mv2.png/v1/fill/w_576,h_709,al_c,lg_1,q_90/shutterstock_1898354080.webp',
         title: 'ARUBA',
         name: 'THESSALY ZIMMERMAN'
     },
-]
-
-const data2 = [
     {
-        url: 'https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg.jj20.com%2Fup%2Fallimg%2Ftp09%2F210611094Q512b-0-lp.jpg&refer=http%3A%2F%2Fimg.jj20.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1643251777&t=20bd84c9977daa2f8af935ced6cc6730',
-        title: 'A1',
-        name: 'A B'
+        url: 'https://static.wixstatic.com/media/47cf01_311550ad2e8e47629fbce5d4a686c132~mv2.png/v1/fill/w_576,h_709,al_c,lg_1,q_90/shutterstock_1898354080.webp',
+        title: 'ARGENTINA',
+        name: 'JULIETA GARCIA'
     },
     {
-        url: 'https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg.jj20.com%2Fup%2Fallimg%2Ftp09%2F210611094Q512b-0-lp.jpg&refer=http%3A%2F%2Fimg.jj20.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1643251777&t=20bd84c9977daa2f8af935ced6cc6730',
-        title: 'A2',
-        name: 'A B'
+        url: 'https://static.wixstatic.com/media/47cf01_aa1b506eb94e4ddb8db3306ad06f1342~mv2.png/v1/fill/w_576,h_709,al_c,lg_1,q_90/shutterstock_1898354080.webp',
+        title: 'ARMENIA',
+        name: 'NANE AVETISYAN'
     },
-    {
-        url: 'https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg.jj20.com%2Fup%2Fallimg%2Ftp09%2F210611094Q512b-0-lp.jpg&refer=http%3A%2F%2Fimg.jj20.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1643251777&t=20bd84c9977daa2f8af935ced6cc6730',
-        title: 'A3',
-        name: 'A B'
-    },
-    {
-        url: 'https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg.jj20.com%2Fup%2Fallimg%2Ftp09%2F210611094Q512b-0-lp.jpg&refer=http%3A%2F%2Fimg.jj20.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1643251777&t=20bd84c9977daa2f8af935ced6cc6730',
-        title: 'A4',
-        name: 'A B'
-    },
-    {
-        url: 'https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg.jj20.com%2Fup%2Fallimg%2Ftp09%2F210611094Q512b-0-lp.jpg&refer=http%3A%2F%2Fimg.jj20.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1643251777&t=20bd84c9977daa2f8af935ced6cc6730',
-        title: 'A5',
-        name: 'A B'
-    },
-    {
-        url: 'https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg.jj20.com%2Fup%2Fallimg%2Ftp09%2F210611094Q512b-0-lp.jpg&refer=http%3A%2F%2Fimg.jj20.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1643251777&t=20bd84c9977daa2f8af935ced6cc6730',
-        title: 'A6',
-        name: 'A B'
-    },
-    {
-        url: 'https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg.jj20.com%2Fup%2Fallimg%2Ftp09%2F210611094Q512b-0-lp.jpg&refer=http%3A%2F%2Fimg.jj20.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1643251777&t=20bd84c9977daa2f8af935ced6cc6730',
-        title: 'A7',
-        name: 'A B'
-    },
-    {
-        url: 'https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg.jj20.com%2Fup%2Fallimg%2Ftp09%2F210611094Q512b-0-lp.jpg&refer=http%3A%2F%2Fimg.jj20.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1643251777&t=20bd84c9977daa2f8af935ced6cc6730',
-        title: 'A8',
-        name: 'A B'
-    },
-    {
-        url: 'https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg.jj20.com%2Fup%2Fallimg%2Ftp09%2F210611094Q512b-0-lp.jpg&refer=http%3A%2F%2Fimg.jj20.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1643251777&t=20bd84c9977daa2f8af935ced6cc6730',
-        title: 'A9',
-        name: 'A B'
-    },
-
 ]
 
 export default function Index() {
     return (
         <main >
+            <section className="header">
+                <div className="caption">
+                    <div id="clockdiv"></div>
+                    <div className="title">Global NFT Digital IP &amp; Assets Summit </div>
+                    <div className="date-location">
+                        <div className="date">
+                            <i className="icon-calendar"></i> May 11, 2021
+                            - <span aria-hidden="true"></span> May 12, 2021 </div>
+                        <div className="time">
+                            <i className="icon-clock"></i>
+                            <span className="" aria-hidden="true"></span> 9:30 am
+                            - <span className="" aria-hidden="true"></span> 5:00 pm
+                        </div>
+                    </div>
+                    <div className="location">
+                        <i className="icon-location"></i> Tencent Conference + Bilibili Live Stream Beijing Time </div>
+                    <p>
+                        NFTs, or non-fungible tokens, have exploded in popularity this year. The demand for NFTs is continuing to surge and the NFT market is showing no signs of slowing down. Therefore, we have invited industry leaders and experts to discuss the future of NFT trend.
+                    </p>
+                    <div className="group-btn">
+                        <a href="#" className="btn btn-secondary">Attend</a>
+                        <a href="https://live.bilibili.com/2875826" className="btn btn-outline-white">Watch it Live</a>
+                    </div>
+                </div>
+            </section>
             <div className="grid">
                 {data.map((d, index) => <Item {...d} index={index} />)}
+            </div>
+            <div className="sponsor">
+                <div className="item">
+                    <div className="line" />
+                    <div className="row">
+                        <div className="left">
+                            <span className="sponsor-subtitle">Sponsors</span>
+                        </div>
+                        <div className="right">
+                            <div className="img-holder">
+                                <img src="http://summit.oumi.group/wp-content/uploads/2021/04/微信图片_20210413235901.jpg" alt="Home" />
+                            </div>
+                            <div className="img-holder">
+                                <img src="http://summit.oumi.group/wp-content/uploads/2021/04/微信图片_20210414001601.jpg" alt="Home" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="item">
+                    <div className="line" />
+                    <div className="row">
+                        <div className="left">
+                            <span className="sponsor-subtitle">Sponsors</span>
+                        </div>
+                        <div className="right">
+                            <div className="img-holder">
+                                <img src="http://summit.oumi.group/wp-content/uploads/2021/04/微信图片_20210413235901.jpg" alt="Home" />
+                            </div>
+                            <div className="img-holder">
+                                <img src="http://summit.oumi.group/wp-content/uploads/2021/04/微信图片_20210414001601.jpg" alt="Home" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </main>
     );
