@@ -56,12 +56,12 @@ export default function Index() {
         <main >
             <section className="header">
                 <div className="caption">
-                    <div id="clockdiv"></div>
                     <div className="title">Global NFT Digital IP &amp; Assets Summit </div>
                     <div className="date-location">
-                        <div className="date">
+                        <div className="data">
                             <i className="icon-calendar"></i> May 11, 2021
-                            - <span aria-hidden="true"></span> May 12, 2021 </div>
+                            - <span aria-hidden="true"></span> May 12, 2021
+                        </div>
                         <div className="time">
                             <i className="icon-clock"></i>
                             <span className="" aria-hidden="true"></span> 9:30 am
@@ -74,14 +74,16 @@ export default function Index() {
                         NFTs, or non-fungible tokens, have exploded in popularity this year. The demand for NFTs is continuing to surge and the NFT market is showing no signs of slowing down. Therefore, we have invited industry leaders and experts to discuss the future of NFT trend.
                     </p>
                     <div className="group-btn">
-                        <a href="#" className="btn btn-secondary">Attend</a>
-                        <a href="https://live.bilibili.com/2875826" className="btn btn-outline-white">Watch it Live</a>
+                        <button className="btn btn-secondary">Attend</button>
+                        <button className="btn btn-outline-white">Watch it Live</button>
                     </div>
                 </div>
             </section>
+
             <div className="grid">
                 {data.map((d, index) => <Item {...d} index={index} />)}
             </div>
+
             <div className="sponsor">
                 <div className="item">
                     <div className="line" />
