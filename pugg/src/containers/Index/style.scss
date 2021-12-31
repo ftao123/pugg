@@ -5,18 +5,45 @@ main{
     align-items: center;
     min-width: 980px;
     position: relative;
+    
+    .node-title{
+        width: 100%;
+        text-align: center;
+        padding: 50px 10% 50px 10%;
+        background-color: #f9f9f9;
+        h2{
+            display: inline-block;
+            margin: 0 0 50px;
+            font-size: 1.5em;
+            font: 600 28px Abel;
+            margin-block-start: 0.83em;
+            margin-block-end: 0.83em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+        }
+    }
 
-    .header{
+    .p-head{
         z-index: 0;
         background: 
             url( 'http://demo.wpeventpartners.com/tedx-talk-pro/wp-content/uploads/sites/6/2020/07/cropped-alexander-popov-xfQZM-SBhkE-unsplash.jpg' )
             center/cover
             no-repeat
             fixed;
-        padding: 0px;
+        position: relative;
+        &:before{
+            background: #232e51;
+            opacity: 0.8;
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            z-index: -1;
+        }
         .caption{
             display: flex;
-            background-color: rgba(10, 39, 134, 0.63);
             color: #fff;
             text-align: left;
             flex-direction: column;
@@ -45,17 +72,11 @@ main{
                     }
                 }
                 .data{
-                     .icon-calendar:before {
-                        content: '\e807';
+                    .icon-calendar:before {
+                        content: "\f3ff";
                         color: #fff;
-                        display: inline-block;
-                        text-decoration: inherit;
-                        width: 1em;
-                        margin-right: 0.2em;
-                        text-align: center;
-                        text-transform: none;
-                        line-height: 1em;
-                        margin-left: 0.2em;
+                        width: 20px;
+                        height: 20px;
                     }
                 }
                 .time{
@@ -94,6 +115,59 @@ main{
                     border-color: #fff;
                 }
             }
+        }
+    }
+
+    .read-more{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 90px 10% 90px 10%;
+        background-color: #fff;
+        text-align: center;
+        h2{
+            margin: 0 0 20px;
+            vertical-align: top;
+            font: 600 28px Abel;
+            margin-block-start: 0.83em;
+            margin-block-end: 0.83em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+            display: inline-block;
+            color: #111111;
+        }
+        p{
+            margin-top: 0;
+            margin-bottom: 1.5em;
+            display: block;
+            margin-block-start: 1em;
+            margin-block-end: 1em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+            font: normal 16px Rosarivo;
+            line-height: 1.5;
+        }
+        a{
+            color: #444752;
+        }
+        .btn {
+            padding: 9px 29px;
+            transition: all 0.3s ease;
+            border-radius: 0;
+            display: inline-block;
+            font-weight: 400;
+            text-align: center;
+            vertical-align: middle;
+            cursor: pointer;
+            user-select: none;
+            border: 1px solid transparent;
+            font-size: 1rem;
+            line-height: 1.5;
+        }
+        .btn-secondary {
+            background-color: #f4134f;
+            border-color: #f4134f;
         }
     }
 

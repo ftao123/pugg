@@ -54,7 +54,7 @@ const data = [
 export default function Index() {
     return (
         <main >
-            <section className="header">
+            <div className="p-head">
                 <div className="caption">
                     <div className="title">Global NFT Digital IP &amp; Assets Summit </div>
                     <div className="date-location">
@@ -69,19 +69,39 @@ export default function Index() {
                         </div>
                     </div>
                     <div className="location">
-                        <i className="icon-location"></i> Tencent Conference + Bilibili Live Stream Beijing Time </div>
+                        <i className="icon-location"></i> Tencent Conference + Bilibili Live Stream Beijing Time
+                    </div>
                     <p>
                         NFTs, or non-fungible tokens, have exploded in popularity this year. The demand for NFTs is continuing to surge and the NFT market is showing no signs of slowing down. Therefore, we have invited industry leaders and experts to discuss the future of NFT trend.
                     </p>
                     <div className="group-btn">
-                        <button className="btn btn-secondary">Attend</button>
+                        <button className="btn btn-secondary" onClick={() => { alert(11) }}>Attend</button>
                         <button className="btn btn-outline-white">Watch it Live</button>
                     </div>
                 </div>
-            </section>
+            </div>
+
+            <div className="node-title">
+                <h2 >Speakers1</h2>
+            </div>
+
+            <div className="read-more">
+                <h2 className="title title-1">About the Conference</h2>
+                <p>This summit covers 3 major topics: 1. NFT Applications in Financial Industry and its Business Models; 2. NFT Applications in Arts and Intellectual Property Protection and its Business Models; 3. NFT Applications in IoT and Edge Computing and its Business Models;</p>
+                <p></p>
+                <a className="btn btn-secondary" href="http://summit.oumi.group/about-us/">Read More</a>
+            </div>
+
+            <div className="node-title">
+                <h2 >Speakers2</h2>
+            </div>
 
             <div className="grid">
                 {data.map((d, index) => <Item {...d} index={index} />)}
+            </div>
+
+            <div className="node-title">
+                <h2 >Speakers3</h2>
             </div>
 
             <div className="sponsor">
