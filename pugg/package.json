@@ -2,7 +2,7 @@
   "name": "pugg",
   "version": "0.1.0",
   "private": true,
-  "homepage":".",
+  "homepage": ".",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
@@ -11,6 +11,7 @@
     "@types/node": "^16.11.17",
     "@types/react": "^17.0.38",
     "@types/react-dom": "^17.0.11",
+    "antd": "^4.18.2",
     "classnames": "^2.3.1",
     "history": "^5.2.0",
     "node-sass": "^7.0.0",
