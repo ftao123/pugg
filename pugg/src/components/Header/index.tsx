@@ -41,8 +41,11 @@ export default function Header() {
                     </a>
                 </div>
             </div>
-            <div className="nav-main">
+            <div className="nav-main" style={{ marginRight: '15px' }}>
                 <a href="https://marketplace.pugg.io" className="elementor-button-link elementor-animation-grow">Marketplace</a>
+            </div>
+            <div className="nav-main" style={{ width: "102px" }}>
+                <a href="https://pancakeswap.finance/swap?outputCurrency=0x83404e49ad2a3fde41f3fc4ca946f9c8db3508cd" className="elementor-button-link elementor-animation-grow">Pancake</a>
             </div>
         </div>
     );

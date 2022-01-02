@@ -30,9 +30,10 @@
                 cursor: pointer;
                 display: inline-block;
                 width: 60px;
-                img svg {
+                img{
+                    width: 19px;
+                    font-size: 300%;
                     height: 1.5em;
-                    width: 1.5em;
                 }
             }
         }
@@ -43,13 +44,18 @@
         }
     }
     .nav-main{
+        width: 102px;
         a {
             display: inline-block;
             font-size: 13px;
             color: #000;
             border-radius: 10px 10px 10px 10px;
-            padding: 13% 13% 13% 13%;
+            padding: 13%;
             background-color: #fff;
+        }
+        .elementor-animation-grow {
+            transition-duration: .3s;
+            transition-property: transform;
         }
     }
 

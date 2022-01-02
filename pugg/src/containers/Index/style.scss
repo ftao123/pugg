@@ -235,11 +235,10 @@ main{
 
     .grid{
         display: flex;
-        padding: 0% 10%;
         flex-wrap: wrap;
         direction: ltr;
         justify-content: center;
-        padding: 0% 10%;
+        padding: 20px 10%;
         .center-row{
             margin: 0px 12px;
         }
@@ -295,7 +294,6 @@ main{
                 display: flex;
                 justify-content: center;
                 button{
-                    
                     background-color: #903f8e;
                     width: 150px;
                     height: 38px;
@@ -320,6 +318,76 @@ main{
             & {
                 display: block;
             }
+        }
+    }
+    .pagination{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        align-items: center;
+        width: 100%;
+        padding: 20px 10%;
+        color: #000000d9;
+        font-size: 14px;
+        line-height: 1.5715;
+        list-style: none;
+        li{
+            display: inline-block;
+            min-width: 32px;
+            height: 32px;
+            color: #000000d9;
+            line-height: 32px;
+            text-align: center;
+            vertical-align: middle;
+            border-radius: 2px;
+            transition: all .3s;
+            margin-right: 8px;
+            font-weight: 500;
+            background: #fff;
+            // border-color: #1890ff;
+            border-color: #1890ff;
+            text-align: center;
+            background-color: #fff;
+            border: 1px solid #d9d9d9;
+            cursor: pointer;
+            user-select: none;
+            outline: 0;
+            a {
+                display: block;
+                padding: 0 6px;
+                color: #000000d9;
+                transition: none;
+                touch-action: manipulation;
+                text-decoration: none;
+                background-color: transparent;
+                outline: none;
+                cursor: pointer;
+            }
+            button{
+                color: #00000040;
+                border-color: #d9d9d9;
+                display: block;
+                width: 100%;
+                height: 100%;
+                padding: 0;
+                font-size: 12px;
+                text-align: center;
+                background-color: #fff;
+                border-radius: 2px;
+                outline: none;
+                transition: all .3s;
+                .anticon {
+                    display: inline-block;
+                    color: inherit;
+                    font-style: normal;
+                    line-height: 0;
+                    text-align: center;
+                    text-transform: none;
+                    vertical-align: -0.125em;
+                    text-rendering: optimizeLegibility;
+                }
+            }
+
         }
     }
 }
