@@ -75,7 +75,7 @@ export default function Index() {
 						<i className="icon-location"></i> Tencent Conference +
 						Bilibili Live Stream Beijing Time
 					</div>
-					<p>
+					<p className="ptext">
 						NFTs, or non-fungible tokens, have exploded in
 						popularity this year. The demand for NFTs is continuing
 						to surge and the NFT market is showing no signs of

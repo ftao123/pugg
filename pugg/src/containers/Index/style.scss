@@ -25,9 +25,10 @@ main {
 
 	.p-head {
 		z-index: 0;
-		background: url("http://demo.wpeventpartners.com/tedx-talk-pro/wp-content/uploads/sites/6/2020/07/cropped-alexander-popov-xfQZM-SBhkE-unsplash.jpg")
-			center/cover no-repeat fixed;
+		background: url("http://demo.wpeventpartners.com/tedx-talk-pro/wp-content/uploads/sites/6/2020/07/cropped-alexander-popov-xfQZM-SBhkE-unsplash.jpg");
 		position: relative;
+		display: flex;
+		justify-content: center;
 		&:before {
 			background: #232e51;
 			opacity: 0.8;
@@ -112,6 +113,11 @@ main {
 					border-color: #fff;
 				}
 			}
+			@media screen and (max-width: 991px) {
+				& {
+					padding: 60px 20px;
+				}
+			}
 		}
 	}
 
@@ -145,6 +151,11 @@ main {
 			font: normal 16px Rosarivo;
 			line-height: 1.5;
 		}
+		@media screen and (max-width: 991px) {
+			p {
+				margin: 10px;
+			}
+		}
 		a {
 			color: #444752;
 		}
@@ -165,6 +176,11 @@ main {
 		.btn-secondary {
 			background-color: #f4134f;
 			border-color: #f4134f;
+		}
+		@media screen and (max-width: 991px) {
+			& {
+				padding: 50px 0;
+			}
 		}
 	}
 
@@ -198,12 +214,6 @@ main {
 						border-right: 1px solid #aaa;
 						line-height: 1.5;
 					}
-					@media screen and(min-width: 576px) {
-						& {
-							flex: 0 0 25%;
-							max-width: 25%;
-						}
-					}
 				}
 				.right {
 					display: flex;
@@ -217,12 +227,6 @@ main {
 							transition: all 0.3s ease;
 							height: auto;
 							max-width: 100%;
-						}
-					}
-					@media screen and(min-width: 576px) {
-						& {
-							flex: 0 0 75%;
-							max-width: 75%;
 						}
 					}
 				}
@@ -239,7 +243,7 @@ main {
 		.center-row {
 			margin: 0px 12px;
 		}
-		@media screen and (max-width: 1024px) {
+		@media screen and (max-width: 991px) {
 			.center-row {
 				margin: 0px 0px;
 			}
@@ -268,7 +272,7 @@ main {
 					object-fit: cover;
 					object-position: 50% 50%;
 				}
-				@media screen and (max-width: 1024px) {
+				@media screen and (max-width: 991px) {
 					img {
 						width: 100%;
 						height: 200px;
@@ -310,7 +314,7 @@ main {
 				}
 			}
 		}
-		@media screen and (max-width: 1024px) {
+		@media screen and (max-width: 991px) {
 			& {
 				display: block;
 			}
@@ -322,5 +326,10 @@ main {
 		padding: 20px 10%;
 		display: flex;
 		justify-content: flex-end;
+	}
+	@media screen and (max-width: 991px) {
+		& {
+			min-width: 0px;
+		}
 	}
 }
