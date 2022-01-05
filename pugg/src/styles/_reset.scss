@@ -11,7 +11,7 @@
  * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
  * http://cssreset.com
  */
-@import '~antd/dist/antd.css';
+@import "~antd/dist/antd.css";
 
 a,
 abbr,
@@ -117,10 +117,9 @@ blockquote:after,
 blockquote:before,
 q:after,
 q:before {
-  content: '';
+  content: "";
   content: none;
 }
-
 
 /**
  * Prevent modern browsers from displaying `audio` without controls.
@@ -131,7 +130,6 @@ audio:not([controls]) {
   display: none;
   height: 0;
 }
-
 
 /**
  * Hide the `template` element in IE, Safari, and Firefox < 22.
@@ -146,11 +144,9 @@ script {
   display: none !important;
 }
 
-
 /* ==========================================================================
    Base
    ========================================================================== */
-
 
 /**
  * 1. Set default font family to sans-serif.
@@ -171,7 +167,6 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   -webkit-tap-highlight-color: transparent;
 }
-
 
 /**
  * Remove default margin.
@@ -199,16 +194,16 @@ body {
   word-wrap: break-word;
   font-family: -apple-system;
   text-rendering: optimizeLegibility;
-  font-family: PingFang SC,Microsoft YaHei,Avenir,Helvetica,Arial,sans-serif;
+  font-family: PingFang SC, Microsoft YaHei, Avenir, Helvetica, Arial,
+    sans-serif;
   padding: 0;
   margin: 0;
   background-color: #000;
   font-size: 62.5%;
-  overflow-y: scroll
+  overflow-y: scroll;
 }
 
 // body font-family: "-apple-system", "Helvetica Neue", "Roboto", "Segoe UI", sans-serif;
-
 
 /**
  * Remove default outlines.
@@ -224,7 +219,6 @@ button:focus {
   outline: 0;
 }
 
-
 /* *
  * Remove tap highlight color
  */
@@ -239,11 +233,9 @@ a {
   }
 }
 
-
 /* ==========================================================================
    Typography
    ========================================================================== */
-
 
 /**
  * Address style set to `bolder` in Firefox 4+, Safari 5, and Chrome.
@@ -254,7 +246,6 @@ strong {
   font-weight: bold;
 }
 
-
 /**
  * Address styling not present in Safari 5 and Chrome.
  */
@@ -262,7 +253,6 @@ strong {
 dfn {
   font-style: italic;
 }
-
 
 /**
  * Address differences between Firefox and other browsers.
@@ -272,7 +262,6 @@ hr {
   box-sizing: content-box;
   height: 0;
 }
-
 
 /**
  * Correct font family set oddly in Safari 5 and Chrome.
@@ -286,7 +275,6 @@ samp {
   font-family: monospace, serif;
 }
 
-
 /**
  * Improve readability of pre-formatted text in all browsers.
  */
@@ -295,15 +283,13 @@ pre {
   white-space: pre-wrap;
 }
 
-
 /**
  * Set consistent quote types.
  */
 
 q {
-  quotes: "\201C" "\201D" "\2018" "\2019";
+  quotes: "\201C""\201D""\2018""\2019";
 }
-
 
 /**
  * Address inconsistent and variable font size in all browsers.
@@ -312,7 +298,6 @@ q {
 small {
   font-size: 80%;
 }
-
 
 /**
  * Prevent `sub` and `sup` affecting `line-height` in all browsers.
@@ -334,7 +319,6 @@ sub {
   bottom: -0.25em;
 }
 
-
 /**
  * Define consistent border, margin, and padding.
  */
@@ -345,7 +329,6 @@ fieldset {
   border: 1px solid #c0c0c0;
 }
 
-
 /**
  * 1. Correct `color` not being inherited in IE 8/9.
  * 2. Remove padding so people aren't caught out if they zero out fieldsets.
@@ -355,7 +338,6 @@ legend {
   padding: 0;
   border: 0;
 }
-
 
 /**
  * 1. Correct font family not being inherited in all browsers.
@@ -381,7 +363,6 @@ textarea {
   background-image: none;
 }
 
-
 /**
  * Address Firefox 4+ setting `line-height` on `input` using `importnt` in
  * the UA stylesheet.
@@ -391,7 +372,6 @@ button,
 input {
   line-height: normal;
 }
-
 
 /**
  * Address inconsistent `text-transform` inheritance for `button` and `select`.
@@ -404,7 +384,6 @@ button,
 select {
   text-transform: none;
 }
-
 
 /**
  * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
@@ -425,7 +404,6 @@ input[type="submit"] {
   -webkit-appearance: button;
 }
 
-
 /**
  * Re-set default cursor for disabled elements.
  */
@@ -434,7 +412,6 @@ button[disabled],
 html input[disabled] {
   cursor: default;
 }
-
 
 /**
  * 1. Address `appearance` set to `searchfield` in Safari 5 and Chrome.
@@ -446,7 +423,6 @@ input[type="search"] {
   -webkit-appearance: textfield;
 }
 
-
 /**
  * Remove inner padding and search cancel button in Safari 5 and Chrome
  * on OS X.
@@ -456,7 +432,6 @@ input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
-
 
 /**
  * 1. Remove default vertical scrollbar in IE 8/9.
@@ -472,11 +447,9 @@ img {
   -webkit-user-drag: none;
 }
 
-
 /* ==========================================================================
    Tables
    ========================================================================== */
-
 
 /**
  * Remove most spacing between table cells.
@@ -486,7 +459,6 @@ table {
   border-spacing: 0;
   border-collapse: collapse;
 }
-
 
 /* =========================================================== */
 

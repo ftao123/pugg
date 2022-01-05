@@ -1,330 +1,326 @@
-main{
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 980px;
+  position: relative;
+
+  .node-title {
+    width: 100%;
+    text-align: center;
+    padding: 50px 10% 50px 10%;
+    background-color: #f9f9f9;
+    h2 {
+      display: inline-block;
+      margin: 0 0 50px;
+      font-size: 1.5em;
+      font: 600 28px Abel;
+      margin-block-start: 0.83em;
+      margin-block-end: 0.83em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+    }
+  }
+
+  .p-head {
+    z-index: 0;
+    background: url("http://demo.wpeventpartners.com/tedx-talk-pro/wp-content/uploads/sites/6/2020/07/cropped-alexander-popov-xfQZM-SBhkE-unsplash.jpg")
+      center/cover no-repeat fixed;
+    position: relative;
+    &:before {
+      background: #232e51;
+      opacity: 0.8;
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      z-index: -1;
+    }
+    .caption {
+      display: flex;
+      color: #fff;
+      text-align: left;
+      flex-direction: column;
+      padding: 90px 0% 90px 10%;
+      font: normal 16px Rosarivo;
+      line-height: 1.5;
+      p {
+        color: #fff;
+        margin: 20px 0;
+      }
+      .title {
+        font-size: 40px;
+        font-family: Abel;
+      }
+      .date-location {
+        display: flex;
+        text-align: left;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: 10px 0;
+        max-width: 1140px;
+        div {
+          margin: 0 30px 0 0;
+          i {
+            font-style: italic;
+          }
+        }
+        .data {
+          .icon-calendar:before {
+            content: "\f3ff";
+            color: #fff;
+            width: 20px;
+            height: 20px;
+          }
+        }
+        .time {
+          .icon-clock:before {
+            content: "\e802";
+          }
+        }
+      }
+      .group-btn {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: center;
+        .btn {
+          margin: 0 15px 0 0;
+          padding: 9px 29px;
+          transition: all 0.3s ease;
+          border-radius: 0;
+          display: inline-block;
+          font-weight: 400;
+          text-align: center;
+          vertical-align: middle;
+          cursor: pointer;
+          user-select: none;
+          border: 1px solid transparent;
+          font-size: 1rem;
+          line-height: 1.5;
+          color: #444752;
+        }
+        .btn-secondary {
+          background-color: rgb(30, 46, 99);
+          border-color: rgb(30, 46, 99);
+        }
+        .btn-outline-white {
+          background: transparent;
+          border-color: #fff;
+        }
+      }
+    }
+  }
+
+  .read-more {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-width: 980px;
-    position: relative;
-    
-    .node-title{
-        width: 100%;
-        text-align: center;
-        padding: 50px 10% 50px 10%;
-        background-color: #f9f9f9;
-        h2{
-            display: inline-block;
-            margin: 0 0 50px;
-            font-size: 1.5em;
-            font: 600 28px Abel;
-            margin-block-start: 0.83em;
-            margin-block-end: 0.83em;
-            margin-inline-start: 0px;
-            margin-inline-end: 0px;
-        }
+    padding: 90px 10% 90px 10%;
+    background-color: #fff;
+    text-align: center;
+    h2 {
+      margin: 0 0 20px;
+      vertical-align: top;
+      font: 600 28px Abel;
+      margin-block-start: 0.83em;
+      margin-block-end: 0.83em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+      display: inline-block;
+      color: #111111;
     }
+    p {
+      margin-top: 0;
+      margin-bottom: 1.5em;
+      display: block;
+      margin-block-start: 1em;
+      margin-block-end: 1em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+      font: normal 16px Rosarivo;
+      line-height: 1.5;
+    }
+    a {
+      color: #444752;
+    }
+    .btn {
+      padding: 9px 29px;
+      transition: all 0.3s ease;
+      border-radius: 0;
+      display: inline-block;
+      font-weight: 400;
+      text-align: center;
+      vertical-align: middle;
+      cursor: pointer;
+      user-select: none;
+      border: 1px solid transparent;
+      font-size: 1rem;
+      line-height: 1.5;
+    }
+    .btn-secondary {
+      background-color: #f4134f;
+      border-color: #f4134f;
+    }
+  }
 
-    .p-head{
-        z-index: 0;
-        background: 
-            url( 'http://demo.wpeventpartners.com/tedx-talk-pro/wp-content/uploads/sites/6/2020/07/cropped-alexander-popov-xfQZM-SBhkE-unsplash.jpg' )
-            center/cover
-            no-repeat
-            fixed;
-        position: relative;
-        &:before{
-            background: #232e51;
-            opacity: 0.8;
-            content: "";
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            z-index: -1;
-        }
-        .caption{
-            display: flex;
+  .sponsor {
+    width: 100%;
+    padding: 20px 0%;
+    display: flex;
+    flex-direction: column;
+    .item {
+      padding: 0px 10%;
+      .line {
+        height: 1px;
+        background-color: #6c757d;
+        margin: 30px 0px;
+      }
+      .row {
+        display: flex;
+        flex-direction: row;
+        // flex-wrap: wrap;
+        .left {
+          width: 25%;
+          .sponsor-subtitle {
+            display: inline-block;
+            padding-right: 15px;
+            padding-left: 15px;
             color: #fff;
-            text-align: left;
-            flex-direction: column;
-            padding: 90px 0% 90px 10%;
-            font: normal 16px Rosarivo;
-            line-height: 1.5;
-            p {
-                color: #fff;
-                margin: 20px 0;
-            }
-            .title {
-                font-size: 40px;
-                font-family: Abel;
-            }
-            .date-location{
-                display: flex;
-                text-align: left;
-                align-items: center;
-                flex-wrap: wrap;
-                margin: 10px 0 ;
-                max-width: 1140px;
-                div {
-                    margin: 0 30px 0 0;
-                    i {
-                        font-style: italic;
-                    }
-                }
-                .data{
-                    .icon-calendar:before {
-                        content: "\f3ff";
-                        color: #fff;
-                        width: 20px;
-                        height: 20px;
-                    }
-                }
-                .time{
-                    .icon-clock:before {
-                        content: '\e802';
-                    }
-                }
-            }
-            .group-btn{
-                display: flex;
-                flex-wrap: wrap;
-                justify-content: flex-start;
-                align-items: center;
-                .btn {
-                    margin: 0 15px 0 0;
-                    padding: 9px 29px;
-                    transition: all 0.3s ease;
-                    border-radius: 0;
-                    display: inline-block;
-                    font-weight: 400;
-                    text-align: center;
-                    vertical-align: middle;
-                    cursor: pointer;
-                    user-select: none;
-                    border: 1px solid transparent;
-                    font-size: 1rem;
-                    line-height: 1.5;
-                    color: #444752;
-                }
-                .btn-secondary {
-                    background-color: rgb(30 ,46, 99);
-                    border-color: rgb(30 ,46, 99);
-                }
-                .btn-outline-white {
-                    background: transparent;
-                    border-color: #fff;
-                }
-            }
-        }
-    }
-
-    .read-more{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding: 90px 10% 90px 10%;
-        background-color: #fff;
-        text-align: center;
-        h2{
-            margin: 0 0 20px;
-            vertical-align: top;
-            font: 600 28px Abel;
-            margin-block-start: 0.83em;
-            margin-block-end: 0.83em;
-            margin-inline-start: 0px;
-            margin-inline-end: 0px;
-            display: inline-block;
-            color: #111111;
-        }
-        p{
-            margin-top: 0;
-            margin-bottom: 1.5em;
+            font-size: 22px;
+            font-weight: 500;
+            margin: 10px 0 0;
             display: block;
-            margin-block-start: 1em;
-            margin-block-end: 1em;
-            margin-inline-start: 0px;
-            margin-inline-end: 0px;
-            font: normal 16px Rosarivo;
+            border-right: 1px solid #aaa;
             line-height: 1.5;
-        }
-        a{
-            color: #444752;
-        }
-        .btn {
-            padding: 9px 29px;
-            transition: all 0.3s ease;
-            border-radius: 0;
-            display: inline-block;
-            font-weight: 400;
-            text-align: center;
-            vertical-align: middle;
-            cursor: pointer;
-            user-select: none;
-            border: 1px solid transparent;
-            font-size: 1rem;
-            line-height: 1.5;
-        }
-        .btn-secondary {
-            background-color: #f4134f;
-            border-color: #f4134f;
-        }
-    }
-
-    .sponsor{
-        width: 100%;
-        padding: 20px 0%;
-        display: flex;
-        flex-direction: column;
-        .item{
-            padding: 0px 10%;
-            .line{
-                height: 1px;
-                background-color: #6c757d;
-                margin: 30px 0px;
-            }
-             .row {
-                display: flex;
-                flex-direction: row;
-                // flex-wrap: wrap;
-                .left{
-                    width: 25%;
-                    .sponsor-subtitle{
-                        display: inline-block;
-                        padding-right: 15px;
-                        padding-left: 15px;
-                        color:#fff;
-                        font-size: 22px;
-                        font-weight: 500;
-                        margin: 10px 0 0;
-                        display: block;
-                        border-right: 1px solid #aaa;
-                        line-height: 1.5;
-                    }
-                    @media screen and(min-width: 576px){
-                        & {
-                            flex: 0 0 25%;
-                            max-width: 25%;
-                        }
-                    }
-                }
-                .right{
-                    display: flex;
-                    flex:1;
-                    padding-right: 15px;
-                    padding-left: 15px;
-                    .img-holder{
-                        max-width: 150px;
-                        margin: 0 auto;
-                        img {
-                            transition: all 0.3s ease;
-                            height: auto;
-                            max-width: 100%;
-                        }
-                    }
-                    @media screen and(min-width: 576px){
-                        & {
-                            flex: 0 0 75%;
-                            max-width: 75%;
-                        }
-                    }
-                }
-            }
-        }
-    }
-
-    .my-grid{
-        display: flex;
-        flex-wrap: wrap;
-        direction: ltr;
-        justify-content: center;
-        padding: 20px 10%;
-        .center-row{
-            margin: 0px 12px;
-        }
-        @media screen and (max-width: 1024px) {
-            .center-row{
-                margin: 0px 0px;
-            }
-        }
-        .row{
-            border-radius: 15px;
-            display: flex;
-            flex-direction: column;
-            .title{
-                margin: 36px 0px 16px 0;
-                h3{
-                    font-size:18px;
-                    line-height:1.2em;
-                    text-align:center;
-                    span{
-                        color:#B49B57;
-                        font-size: 18px;
-                        letter-spacing:0.1em;
-                    }
-                }
-            }
-            .image{
-                img{
-                    width: 311px;
-                    height:383px;
-                    object-fit: cover;
-                    object-position: 50% 50%;
-                }
-                @media screen and (max-width: 1024px){
-                    img{
-                        width: 100%;
-                        height:200px;
-                    }
-                }
-            }
-            .name{
-                margin: 55px 0px 29px 0px;
-                h3{
-                    font-size:20px; 
-                    text-align:center;
-                    span{
-                        letter-spacing:0.05em;
-                        font-size: 20px;
-                        color:#fff;
-                    }
-                }
-            }
-            .button{
-                display: flex;
-                justify-content: center;
-                button{
-                    background-color: #903f8e;
-                    width: 150px;
-                    height: 38px;
-                    line-height: 38px;
-                    border: 1px solid transparent;
-                    padding: 0 18px;
-                    color: #fff;
-                    white-space: nowrap;
-                    text-align: center;
-                    font-size: 14px;
-                    cursor: pointer;
-                }
-                span{
-                        letter-spacing:0.05em;
-                        font-size: 20px;
-                        color:#fff;
-                }
-
-            }
-        }
-        @media screen and (max-width: 1024px) {
+          }
+          @media screen and(min-width: 576px) {
             & {
-                display: block;
+              flex: 0 0 25%;
+              max-width: 25%;
             }
+          }
         }
+        .right {
+          display: flex;
+          flex: 1;
+          padding-right: 15px;
+          padding-left: 15px;
+          .img-holder {
+            max-width: 150px;
+            margin: 0 auto;
+            img {
+              transition: all 0.3s ease;
+              height: auto;
+              max-width: 100%;
+            }
+          }
+          @media screen and(min-width: 576px) {
+            & {
+              flex: 0 0 75%;
+              max-width: 75%;
+            }
+          }
+        }
+      }
     }
-    .pagination{
-        width: 100%;
-        position: relative;
-        padding: 20px 10%;
+  }
+
+  .my-grid {
+    display: flex;
+    flex-wrap: wrap;
+    direction: ltr;
+    justify-content: center;
+    padding: 20px 10%;
+    .center-row {
+      margin: 0px 12px;
+    }
+    @media screen and (max-width: 1024px) {
+      .center-row {
+        margin: 0px 0px;
+      }
+    }
+    .row {
+      border-radius: 15px;
+      display: flex;
+      flex-direction: column;
+      .title {
+        margin: 36px 0px 16px 0;
+        h3 {
+          font-size: 18px;
+          line-height: 1.2em;
+          text-align: center;
+          span {
+            color: #b49b57;
+            font-size: 18px;
+            letter-spacing: 0.1em;
+          }
+        }
+      }
+      .image {
+        img {
+          width: 311px;
+          height: 383px;
+          object-fit: cover;
+          object-position: 50% 50%;
+        }
+        @media screen and (max-width: 1024px) {
+          img {
+            width: 100%;
+            height: 200px;
+          }
+        }
+      }
+      .name {
+        margin: 55px 0px 29px 0px;
+        h3 {
+          font-size: 20px;
+          text-align: center;
+          span {
+            letter-spacing: 0.05em;
+            font-size: 20px;
+            color: #fff;
+          }
+        }
+      }
+      .button {
         display: flex;
-        justify-content: flex-end;
+        justify-content: center;
+        button {
+          background-color: #903f8e;
+          width: 150px;
+          height: 38px;
+          line-height: 38px;
+          border: 1px solid transparent;
+          padding: 0 18px;
+          color: #fff;
+          white-space: nowrap;
+          text-align: center;
+          font-size: 14px;
+          cursor: pointer;
+        }
+        span {
+          letter-spacing: 0.05em;
+          font-size: 20px;
+          color: #fff;
+        }
+      }
     }
+    @media screen and (max-width: 1024px) {
+      & {
+        display: block;
+      }
+    }
+  }
+  .pagination {
+    width: 100%;
+    position: relative;
+    padding: 20px 10%;
+    display: flex;
+    justify-content: flex-end;
+  }
 }
